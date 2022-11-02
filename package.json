@@ -1,0 +1,24 @@
+{
+  "name": "nuova-cartella",
+  "version": "1.0.0",
+  "description": "ROUTES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.5.0"
+  }
+}
